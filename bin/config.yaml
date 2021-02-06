@@ -1,0 +1,31 @@
+# ah
+name: Picsou
+
+# basic
+verbose: true
+silent: false
+
+# input
+data: ["items.csv"]
+
+# output
+stub: items
+overwrite: false
+backup: true
+
+# sql
+hostname: 127.0.0.1
+database: tpzdb
+username: root
+password: ????
+fail: true
+
+# broker
+restock: 3600
+tick: 30
+
+# scrub
+itemids: []
+stock01: 5
+stock12: 5
+urls: []
